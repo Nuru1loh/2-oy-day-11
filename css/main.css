@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,600;0,700;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+    background-color: #014E56;
+}
+
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.team_header {
+    padding-top: 73px;
+}
+
+.team_header_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team_header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.team_header_logo_el {
+    display: inline-block;
+}
+
+.team_header_list {
+    margin-left: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.team_header_link {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.team_header_btn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 9px 32px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+}
+
+
+
+.innovation {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg.svg'), url('../img/bg2.svg');
+    background-position: left top, right bottom;
+
+}
+
+
+
+.innovation_title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 16px;
+}
+
+.innovation_text {
+    color: #F67E7E;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 54px;
+}
+
+.innovation_sub_title {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.innovation_item {
+    padding: 22px 0 22px 95px;
+    background-repeat: no-repeat;
+    background-position: left;
+    /*background-image: url('../img/inn.svg'), url('../img/inn2.svg'), url('../img/inn3.svg');*/
+    margin-bottom: 8px;
+}
+
+.innovation_item:nth-child(1) {
+    background-image: url('../img/inn.svg')
+}
+
+.innovation_item:nth-child(2) {
+    background-image: url('../img/inn2.svg')
+}
+
+.innovation_item:nth-child(3) {
+    background-image: url('../img/inn3.svg')
+}
+
+.innovation_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.innovation_form {
+    width: 540px;
+}
+
+.innovation_textarea::placeholder,
+.innovation_input::placeholder {
+    color: #99b8bb;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+}
+
+.innovation_textarea,
+.innovation_input {
+    width: 100%;
+    padding-bottom: 17px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #014E56;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 24px;
+    resize: none;
+}
+
+.innovation_btn {
+    color: #004047;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 9px 32px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.end {
+    background-color: #002529;
+}
+
+.end_img {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
